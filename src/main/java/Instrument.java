@@ -1,6 +1,7 @@
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
 
     private String name;
     private String type;
@@ -24,4 +25,10 @@ public abstract class Instrument implements IPlay {
     public String play(){
         return "playing" + name + "(" + type + ") it makes a " + sound + "sound";
     }
+
+    public double calculateMarkUpPrice(){
+        return sellingPrice - boughtPrice;
+    }
+
+
 }
