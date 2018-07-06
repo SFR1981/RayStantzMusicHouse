@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d7bb064-f6e2-47f5-a1da-89aef2702f21" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/XylophoneTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/GuitarTest.class" afterPath="$PROJECT_DIR$/out/test/classes/GuitarTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Piano.java" afterPath="$PROJECT_DIR$/src/main/java/Piano.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Xylophone.java" afterPath="$PROJECT_DIR$/src/main/java/Xylophone.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -116,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PianoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PianoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="205">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
@@ -128,6 +126,40 @@
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
                 <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xylophone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Xylophone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding>
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XylophoneTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XylophoneTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+              <folding>
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -451,6 +483,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Piano.java" />
         <option value="$PROJECT_DIR$/src/test/java/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PianoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Xylophone.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XylophoneTest.java" />
       </list>
     </option>
   </component>
@@ -555,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PianoTest">
+  <component name="RunManager" selected="JUnit.XylophoneTest.play">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -597,26 +631,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PianoTest.calculateMarkUpPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="RaysMusicShop_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="calculateMarkUpPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="PianoTest.canGetColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicShop_test" />
@@ -637,14 +651,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PianoTest.canGetManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XylophoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="canGetManufacturer" />
+      <option name="MAIN_CLASS_NAME" value="XylophoneTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="XylophoneTest.canGetType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RaysMusicShop_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XylophoneTest" />
+      <option name="METHOD_NAME" value="canGetType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -657,14 +691,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PianoTest.canGetType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XylophoneTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="canGetType" />
+      <option name="MAIN_CLASS_NAME" value="XylophoneTest" />
+      <option name="METHOD_NAME" value="play" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -738,19 +772,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PianoTest.calculateMarkUpPrice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetManufacturer" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetColour" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PianoTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetColour" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PianoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.XylophoneTest.canGetType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.XylophoneTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.XylophoneTest.play" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PianoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetColour" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetManufacturer" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PianoTest.calculateMarkUpPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.XylophoneTest.play" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XylophoneTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.XylophoneTest.canGetType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PianoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PianoTest.canGetColour" />
       </list>
     </recent_temporary>
   </component>
@@ -771,22 +805,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest - 2018.07.06 at 13h 14m 06s.xml">
-      <configuration name="GuitarTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GuitarTest_calculateMarkUpPrice - 2018.07.06 at 13h 18m 33s.xml">
       <configuration name="GuitarTest.calculateMarkUpPrice" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GuitarTest_calculateMarkUpPrice - 2018.07.06 at 13h 18m 47s.xml">
       <configuration name="GuitarTest.calculateMarkUpPrice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_play - 2018.07.06 at 13h 14m 37s.xml">
-      <configuration name="GuitarTest.play" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_play - 2018.07.06 at 13h 15m 05s.xml">
-      <configuration name="GuitarTest.play" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PianoTest - 2018.07.06 at 13h 26m 01s.xml">
+      <configuration name="PianoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PianoTest - 2018.07.06 at 13h 26m 21s.xml">
       <configuration name="PianoTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PianoTest_canGetColour - 2018.07.06 at 13h 25m 31s.xml">
@@ -800,6 +828,12 @@
     </history-entry>
     <history-entry file="PianoTest_canGetType - 2018.07.06 at 13h 25m 24s.xml">
       <configuration name="PianoTest.canGetType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="XylophoneTest - 2018.07.06 at 13h 35m 26s.xml">
+      <configuration name="XylophoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="XylophoneTest_canGetType - 2018.07.06 at 13h 34m 29s.xml">
+      <configuration name="XylophoneTest.canGetType" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -920,6 +954,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Xylophone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GuitarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -933,17 +995,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/XylophoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        <state relative-caret-position="168">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
           <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
