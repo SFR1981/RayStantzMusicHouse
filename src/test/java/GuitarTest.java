@@ -9,12 +9,12 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Ibanez123", 5, "guitar", "Ibanez", "black", "Twangggggg", 100.00, 199.99);
+        guitar = new Guitar("Ibanez123", 5, InstrumentType.GUITAR, "Ibanez", "black", "Twangggggg", 100.00, 199.99);
     }
 
     @Test
     public void play() {
-        assertEquals("playing Ibanez123 (guitar) it makes a Twangggggg sound", guitar.play());
+        assertEquals("playing Ibanez123 (GUITAR) it makes a Twangggggg sound", guitar.play());
     }
 
     @Test
@@ -36,7 +36,7 @@ public class GuitarTest {
 
     @Test
     public void canGetType(){
-        assertEquals("guitar", guitar.getType());
+        assertEquals("string", guitar.getType());
 
     }
 

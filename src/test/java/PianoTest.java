@@ -10,7 +10,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano("Keymistress", "Piano", 88, "Keymaster", "black", "Plink Plonk", 240.00, 380.00);
+        piano = new Piano("Keymistress", InstrumentType.PIANO, 88, "Keymaster", "black", "Plink Plonk", 240.00, 380.00);
     }
 
     @Test
@@ -21,7 +21,7 @@ public class PianoTest {
 
     @Test
     public void play() {
-        assertEquals("playing Keymistress (Piano) it makes a Plink Plonk sound", piano.play());
+        assertEquals("playing Keymistress (PIANO) it makes a Plink Plonk sound", piano.play());
     }
 
     @Test
@@ -39,7 +39,7 @@ public class PianoTest {
 
     @Test
     public void canGetType(){
-        assertEquals("Piano", piano.getType());
+        assertEquals("struck string intrument", piano.getType());
 
     }
 

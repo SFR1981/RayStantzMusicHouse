@@ -2,7 +2,7 @@ public class Piano extends Instrument {
 
     int keys;
 
-    public Piano(String name, String type, int keys, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice) {
+    public Piano(String name, InstrumentType type, int keys, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice) {
         super(name, type, manufacturer, colour, sound, boughtPrice, sellingPrice);
         this.keys = keys;
     }

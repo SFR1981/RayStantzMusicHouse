@@ -4,14 +4,15 @@ import behaviours.ISell;
 public abstract class Instrument implements IPlay, ISell {
 
     private String name;
-    private String type;
     private String manufacturer;
     private String colour;
     private String sound;
     private double boughtPrice;
     private double sellingPrice;
+    private InstrumentType type;
 
-    public Instrument(String name,  String type, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice){
+
+    public Instrument(String name,  InstrumentType type, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice){
         this.name = name;
         this.type = type;
         this.manufacturer = manufacturer;
@@ -36,7 +37,7 @@ public abstract class Instrument implements IPlay, ISell {
     }
 
     public String getType(){
-        return this.type;
+        return this.type.getType();
     }
 
     public String getManufacturer(){

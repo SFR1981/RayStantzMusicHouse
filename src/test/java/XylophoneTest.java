@@ -9,7 +9,7 @@ public class XylophoneTest {
 
     @Before
     public void before() {
-        xylophone = new Xylophone("hammers","xylophone", 16, "wood", "Xylem", "mahogany", "ding dong", 70.00, 145.99);
+        xylophone = new Xylophone("hammers",InstrumentType.XYLOPHONE, 16, "wood", "Xylem", "mahogany", "ding dong", 70.00, 145.99);
     }
 
     @Test
@@ -25,7 +25,7 @@ public class XylophoneTest {
 
     @Test
     public void play() {
-        assertEquals("playing hammers (xylophone) it makes a ding dong sound", xylophone.play());
+        assertEquals("playing hammers (XYLOPHONE) it makes a ding dong sound", xylophone.play());
     }
 
     @Test
@@ -44,7 +44,7 @@ public class XylophoneTest {
 
     @Test
     public void canGetType(){
-        assertEquals("xylophone", xylophone.getType());
+        assertEquals("percussion", xylophone.getType());
 
     }
 

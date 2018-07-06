@@ -1,7 +1,7 @@
 public class Xylophone extends Instrument{
     int notes;
     String material;
-    public Xylophone(String name, String type, int notes, String material, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice) {
+    public Xylophone(String name, InstrumentType type, int notes, String material, String manufacturer, String colour, String sound, double boughtPrice, double sellingPrice) {
         super(name, type, manufacturer, colour, sound, boughtPrice, sellingPrice);
         this.notes = notes;
         this.material = material;
