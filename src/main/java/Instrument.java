@@ -1,4 +1,6 @@
-public abstract class Instrument {
+import behaviours.IPlay;
+
+public abstract class Instrument implements IPlay {
 
     private String name;
     private String type;
@@ -19,5 +21,7 @@ public abstract class Instrument {
     }
 
 
-    public
+    public String play(){
+        return "playing" + name + "(" + type + ") it makes a " + sound + "sound";
+    }
 }
