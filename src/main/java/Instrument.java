@@ -23,7 +23,7 @@ public abstract class Instrument implements IPlay, ISell {
 
 
     public String play(){
-        return "playing" + name + "(" + type + ") it makes a " + sound + "sound";
+        return "playing " + name + " (" + type + ") it makes a " + sound + " sound";
     }
 
     public double calculateMarkUpPrice(){
@@ -31,4 +31,31 @@ public abstract class Instrument implements IPlay, ISell {
     }
 
 
+    public String getName(){
+        return this.name;
+    }
+
+    public String getType(){
+        return this.type;
+    }
+
+    public String getManufacturer(){
+        return this.manufacturer;
+    }
+
+    public String getColour(){
+        return this.colour;
+    }
+
+    public String getSound(){
+        return this.sound;
+    }
+
+    public double getBoughtPrice(){
+        return this.boughtPrice;
+    }
+
+    public double getSellingPrice(){
+        return this.sellingPrice;
+    }
 }
