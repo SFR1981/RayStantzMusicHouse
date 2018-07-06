@@ -21,7 +21,7 @@ public class ShopTest {
         pianoPolish = new PianoPolish("Key cleaner", "KeyMaestro", 8.99, 18.99);
         guitar = new Guitar("Ibanez123", 5, InstrumentType.GUITAR, "Ibanez", "black", "Twangggggg", 100.00, 110.00);
         piano = new Piano("Keymistress", InstrumentType.PIANO, 88, "Keymaster", "black", "Plink Plonk", 240.00, 250.00);
-        shop = new Shop("Ray Statnz (from out of Ghostbusters) music exchange");
+        shop = new Shop("Ray Stantz (from out of Ghostbusters) music exchange");
     }
 
     @Test
